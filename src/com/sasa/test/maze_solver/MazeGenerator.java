@@ -1,5 +1,7 @@
 package com.sasa.test.maze_solver;
 
+import javafx.util.Pair;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.Path2D;
@@ -32,7 +34,8 @@ public class MazeGenerator extends JPanel
             this.dx = dx;
             this.dy = dy;
         }
-    }
+    }//enum Direction
+
 
     final int nCols;
     final int nRows;
@@ -47,18 +50,15 @@ public class MazeGenerator extends JPanel
         setBackground(Color.white);
         nCols = size;
         nRows = size;
+/*
+        mStart = start;
+        mFinish = finish;
+*/
         maze = new int[nRows][nCols];
         solution = new LinkedList<>();
         generateMaze(0, 0);
-/*
-        for (int i = 0; i < maze.length; ++i)
-        {//sasa
-            for (int j = 0; j < maze[0].length; ++j)
-            {
-                System.out.println(maze[i][j]);
-            }
-        }
-*/
+        int pos = 100;
+
         addMouseListener(new MouseAdapter()
         {
             @Override
@@ -66,7 +66,8 @@ public class MazeGenerator extends JPanel
             {
                 new Thread(() ->
                 {
-                    solve(0);
+                                       solve(0);
+                   // solve(100);//sasa
                 }).start();
             }
         });
@@ -127,7 +128,7 @@ public class MazeGenerator extends JPanel
         g.setColor(Color.green);
         int x = offset + (nCols - 1) * cellSize;
         int y = offset + (nRows - 1) * cellSize;
-        g.fillOval(x - 5, y - 5, 10, 10);
+        g.fillOval(x - 5, y - 15, 10, 10);
 
     }
 
@@ -136,7 +137,7 @@ public class MazeGenerator extends JPanel
         Direction[] dirs = Direction.values();
 
 
-        //sasa Collections.shuffle(Arrays.asList(dirs));
+        Collections.shuffle(Arrays.asList(dirs));
         for (Direction dir : dirs)
         {
             int nc = c + dir.dx;
@@ -158,17 +159,17 @@ public class MazeGenerator extends JPanel
     boolean solve(int pos)
     {
         if (pos == nCols * nRows - 1)
+        {
             return true;
+        }
 
         int c = pos % nCols;
         int r = pos / nCols;
-
         for (Direction dir : Direction.values())
         {
             int nc = c + dir.dx;
             int nr = r + dir.dy;
-            if (withinBounds(nr, nc) && (maze[r][c] & dir.bit) != 0
-                    && (maze[nr][nc] & 16) == 0)
+            if (withinBounds(nr, nc) && (maze[r][c] & dir.bit) != 0 && (maze[nr][nc] & 16) == 0)
             {
 
                 int newPos = nr * nCols + nc;
@@ -179,7 +180,9 @@ public class MazeGenerator extends JPanel
                 animate();
 
                 if (solve(newPos))
+                {
                     return true;
+                }
 
                 animate();
 
