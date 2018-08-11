@@ -1,6 +1,7 @@
 package com.sasa.test;
 
 import com.sasa.test.depth_first.Viewer;
+import com.sasa.test.maze_other.Maze;
 import com.sasa.test.maze_solver.MazeGenerator;
 import com.sasa.test.maze_solver.MazeSolver;
 
@@ -22,10 +23,13 @@ public class Main
     public static void main(String[] args)
     {
         //Viewer
-        boolean zoo = false;
+        boolean zoo = true;
         if (zoo)
         {
-            MazeGenerator.main(args);
+            //Maze
+            //MazeGenerator
+            Maze_Search
+                    .main(args);
         }
         else
         {

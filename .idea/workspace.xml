@@ -8,10 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e371585-3f4c-448a-8c40-5f68bc50785d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sasa/test/Maze_Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sasa/test/maze_other/Maze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sasa/test/maze_other/StdDraw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sasa/test/maze_other/StdRandom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeSolverSasa/com/sasa/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeSolverSasa/com/sasa/test/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sasa/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sasa/test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeGenerator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/sasa/test/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="64">
-              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,14 +54,97 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MazeSolver.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MazeSolver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+            <state relative-caret-position="84">
+              <caret line="78" column="9" lean-forward="true" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#406#414#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Maze.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_other/Maze.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="185" column="21" selection-start-line="185" selection-start-column="21" selection-end-line="185" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Maze_Search.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sasa/test/Maze_Search.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="153" column="16" selection-start-line="153" selection-start-column="16" selection-end-line="153" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StdRandom.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_other/StdRandom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="646" column="9" selection-start-line="646" selection-start-column="9" selection-end-line="646" selection-end-column="11" />
+              <folding>
+                <element signature="e#3589#3590#0" expanded="true" />
+                <element signature="e#3616#3617#0" expanded="true" />
+                <element signature="e#3790#3791#0" expanded="true" />
+                <element signature="e#3832#3833#0" expanded="true" />
+                <element signature="e#5649#5650#0" expanded="true" />
+                <element signature="e#5681#5682#0" expanded="true" />
+                <element signature="e#7640#7641#0" expanded="true" />
+                <element signature="e#7677#7678#0" expanded="true" />
+                <element signature="e#8756#8757#0" expanded="true" />
+                <element signature="e#8802#8803#0" expanded="true" />
+                <element signature="e#10953#10954#0" expanded="true" />
+                <element signature="e#10987#10988#0" expanded="true" />
+                <element signature="e#11744#11745#0" expanded="true" />
+                <element signature="e#11804#11805#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StdDraw.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_other/StdDraw.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="1889" column="12" lean-forward="true" selection-start-line="1889" selection-start-column="12" selection-end-line="1889" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#25084#25095#0" expanded="true" />
+                <element signature="e#25205#25214#0" expanded="true" />
+                <element signature="e#25714#25715#0" expanded="true" />
+                <element signature="e#25771#25772#0" expanded="true" />
+                <element signature="e#29151#29152#0" expanded="true" />
+                <element signature="e#29204#29205#0" expanded="true" />
+                <element signature="e#29332#29333#0" expanded="true" />
+                <element signature="e#29385#29386#0" expanded="true" />
+                <element signature="e#32230#32231#0" expanded="true" />
+                <element signature="e#32272#32273#0" expanded="true" />
+                <element signature="e#32742#32743#0" expanded="true" />
+                <element signature="e#32774#32775#0" expanded="true" />
+                <element signature="e#33106#33107#0" expanded="true" />
+                <element signature="e#33154#33155#0" expanded="true" />
+                <element signature="e#34172#34173#0" expanded="true" />
+                <element signature="e#34203#34204#0" expanded="true" />
+                <element signature="e#34314#34315#0" expanded="true" />
+                <element signature="e#34360#34361#0" expanded="true" />
+                <element signature="e#36051#36052#0" expanded="true" />
+                <element signature="e#36078#36079#0" expanded="true" />
+                <element signature="e#36195#36196#0" expanded="true" />
+                <element signature="e#36232#36233#0" expanded="true" />
+                <element signature="e#63835#63836#0" expanded="true" />
+                <element signature="e#63869#63870#0" expanded="true" />
+                <element signature="e#64163#64164#0" expanded="true" />
+                <element signature="e#64191#64192#0" expanded="true" />
+                <element signature="e#64478#64479#0" expanded="true" />
+                <element signature="e#64507#64508#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,8 +178,13 @@
         <option value="$PROJECT_DIR$/src/com/sasa/test/View.java" />
         <option value="$PROJECT_DIR$/src/com/sasa/test/Viewer.java" />
         <option value="$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeGenerator.java" />
-        <option value="$PROJECT_DIR$/src/com/sasa/test/Main.java" />
         <option value="$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeSolver.java" />
+        <option value="$PROJECT_DIR$/src/com/sasa/test/maze_other/StdDraw.java" />
+        <option value="$PROJECT_DIR$/src/com/sasa/test/maze_other/StdRandom.java" />
+        <option value="$PROJECT_DIR$/src/com/sasa/test/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/sasa/test/maze_other/Maze.java" />
+        <option value="$PROJECT_DIR$/src/com/sasa/test/maze_search.java" />
+        <option value="$PROJECT_DIR$/src/com/sasa/test/Maze_Search.java" />
       </list>
     </option>
   </component>
@@ -121,85 +212,6 @@
             <path>
               <item name="MazeSolverSasa" type="b2602c69:ProjectViewProjectNode" />
               <item name="MazeSolverSasa" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MazeSolverSasa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MazeSolverSasa" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MazeSolverSasa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MazeSolverSasa" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="MazeSolver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MazeSolverSasa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MazeSolverSasa" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="MazeSolver" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MazeSolverSasa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MazeSolverSasa" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="MazeSolver" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sasa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MazeSolverSasa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MazeSolverSasa" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="MazeSolver" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sasa" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MazeSolverSasa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MazeSolverSasa" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="MazeSolverSasa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MazeSolverSasa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MazeSolverSasa" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="MazeSolverSasa" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MazeSolverSasa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MazeSolverSasa" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="MazeSolverSasa" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sasa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MazeSolverSasa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MazeSolverSasa" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="MazeSolverSasa" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sasa" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MazeSolverSasa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MazeSolverSasa" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -207,13 +219,6 @@
               <item name="MazeSolverSasa" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MazeSolverSasa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MazeSolverSasa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="maze_solver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -268,6 +273,14 @@
       <option name="presentableId" value="Default" />
       <updated>1533889444606</updated>
     </task>
+    <task id="LOCAL-00001" summary="re-fact">
+      <created>1533973014116</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533973014116</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -287,7 +300,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.51846784" visible="true" weight="0.22526042" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.51846784" visible="true" weight="0.22526042" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968536" />
       <window_info id="Structure" order="1" sideWeight="0.48153216" side_tool="true" visible="true" weight="0.22526042" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -304,6 +317,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="re-fact" />
+    <option name="LAST_COMMIT_MESSAGE" value="re-fact" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -328,7 +345,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/sasa/test/Main.java</url>
-          <line>38</line>
+          <line>41</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
@@ -420,24 +437,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="78" column="9" lean-forward="true" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#406#414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_other/StdDraw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="1889" column="12" lean-forward="true" selection-start-line="1889" selection-start-column="12" selection-end-line="1889" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#25084#25095#0" expanded="true" />
+            <element signature="e#25205#25214#0" expanded="true" />
+            <element signature="e#25714#25715#0" expanded="true" />
+            <element signature="e#25771#25772#0" expanded="true" />
+            <element signature="e#29151#29152#0" expanded="true" />
+            <element signature="e#29204#29205#0" expanded="true" />
+            <element signature="e#29332#29333#0" expanded="true" />
+            <element signature="e#29385#29386#0" expanded="true" />
+            <element signature="e#32230#32231#0" expanded="true" />
+            <element signature="e#32272#32273#0" expanded="true" />
+            <element signature="e#32742#32743#0" expanded="true" />
+            <element signature="e#32774#32775#0" expanded="true" />
+            <element signature="e#33106#33107#0" expanded="true" />
+            <element signature="e#33154#33155#0" expanded="true" />
+            <element signature="e#34172#34173#0" expanded="true" />
+            <element signature="e#34203#34204#0" expanded="true" />
+            <element signature="e#34314#34315#0" expanded="true" />
+            <element signature="e#34360#34361#0" expanded="true" />
+            <element signature="e#36051#36052#0" expanded="true" />
+            <element signature="e#36078#36079#0" expanded="true" />
+            <element signature="e#36195#36196#0" expanded="true" />
+            <element signature="e#36232#36233#0" expanded="true" />
+            <element signature="e#63835#63836#0" expanded="true" />
+            <element signature="e#63869#63870#0" expanded="true" />
+            <element signature="e#64163#64164#0" expanded="true" />
+            <element signature="e#64191#64192#0" expanded="true" />
+            <element signature="e#64478#64479#0" expanded="true" />
+            <element signature="e#64507#64508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_other/StdRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="646" column="9" selection-start-line="646" selection-start-column="9" selection-end-line="646" selection-end-column="11" />
+          <folding>
+            <element signature="e#3589#3590#0" expanded="true" />
+            <element signature="e#3616#3617#0" expanded="true" />
+            <element signature="e#3790#3791#0" expanded="true" />
+            <element signature="e#3832#3833#0" expanded="true" />
+            <element signature="e#5649#5650#0" expanded="true" />
+            <element signature="e#5681#5682#0" expanded="true" />
+            <element signature="e#7640#7641#0" expanded="true" />
+            <element signature="e#7677#7678#0" expanded="true" />
+            <element signature="e#8756#8757#0" expanded="true" />
+            <element signature="e#8802#8803#0" expanded="true" />
+            <element signature="e#10953#10954#0" expanded="true" />
+            <element signature="e#10987#10988#0" expanded="true" />
+            <element signature="e#11744#11745#0" expanded="true" />
+            <element signature="e#11804#11805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sasa/test/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeSolver.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_other/Maze.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#406#414#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="380">
+          <caret line="185" column="21" selection-start-line="185" selection-start-column="21" selection-end-line="185" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/Maze_Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="153" column="16" selection-start-line="153" selection-start-column="16" selection-end-line="153" selection-end-column="16" />
         </state>
       </provider>
     </entry>
