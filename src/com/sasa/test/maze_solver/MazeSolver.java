@@ -49,6 +49,10 @@ public class MazeSolver
     private static boolean solveMazeRecursively(char[][] maze, int x, int y, int d)
     {
         boolean ok = false;
+        if (x == 1 && y == 1)
+        {
+            ok = true;
+        }
         int k = 1;
         for (int i = 0; i < 4 && !ok; i++)
         {
@@ -75,10 +79,12 @@ public class MazeSolver
                 }
         }
         // check for end condition
+/*
         if (x == 1 && y == 6)//1)
         {
             ok = true;
         }
+*/
         // once we have found a solution, draw it as we unwind the recursion
         if (ok)
         {
@@ -109,7 +115,7 @@ public class MazeSolver
      */
     private static void solveMaze(char[][] maze)
     {
-        solveMazeRecursively(maze, maze[0].length - 2, maze.length - 8, -1);
+        solveMazeRecursively(maze, maze[0].length - 2, maze.length - 2, -1);
     }
 
     /**
