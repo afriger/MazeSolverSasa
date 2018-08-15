@@ -1,5 +1,6 @@
 package com.sasa.test.graphics;
 
+import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.awt.image.BufferedImage;
@@ -22,7 +23,7 @@ public class Grayscale
         //read image
         try
         {
-            f = new File(mPath + "/in.png");
+            f = new File(mPath + "/" + file);
             img = ImageIO.read(f);
         }
         catch (IOException e)
@@ -38,13 +39,82 @@ public class Grayscale
         //write image
         try
         {
-            f = new File(mPath + "/out.png");
+            f = new File(mPath + "/" + file);
             ImageIO.write(img, "png", f);
         }
         catch (IOException e)
         {
             System.out.println(e);
         }
+    }
+
+    public int[][] GetMaze()
+    {
+        BufferedImage img = ReadImg("my-blueprint.png");
+        int width = img.getWidth();
+        int height = img.getHeight();
+        int k = 20;
+        int s = k / 2;
+        int[][] maze = new int[height / k][ width/ k];
+        {
+            int i = 0, j = 0;
+            for (int y = s; y < height; y += k)
+            {
+                if(i>=40)
+                    break;
+                for (int x = s; x < width; x += k)
+                {
+                    if(j>=40)
+                        break;
+                    int p = img.getRGB(x, y);
+/*
+                    int a = (p >> 24) & 0xff;
+                    int r = (p >> 16) & 0xff;
+                    int g = (p >> 8) & 0xff;
+                    int b = p & 0xff;
+*/
+
+                    if(p==-1)// (r == 255 && g == 255)
+                    {
+                        maze[i][j] = 0;
+                    }
+                    else
+                    {
+                        maze[i][j] = 1;
+                        System.out.print(i+";"+j+"\n");
+                    }
+                    j++;
+                }
+                j=0;
+                i++;
+            }
+        }
+
+
+        return maze;
+    }
+
+    public void LinedSheet()
+    {
+        BufferedImage img = ReadImg("map-0.png");
+        if (img == null)
+        {
+            return;
+        }
+        int k = 20;
+        int width = img.getWidth();
+        int height = img.getHeight();
+        Graphics g = img.getGraphics();
+        g.setColor(Color.BLACK);
+        for (int y = 0; y < height; y += 20)
+        {
+            g.drawLine(0, y, width, y);
+        }
+        for (int x = 0; x < width; x += 20)
+        {
+            g.drawLine(x, 0, x, height);
+        }
+        WriteImage("map-l.png", img);
     }
 
     public BufferedImage Proc(final BufferedImage out)

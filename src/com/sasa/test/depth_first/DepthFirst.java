@@ -29,7 +29,7 @@ public class DepthFirst
 
         if (maze[y][x] == 0)
         {
-            maze[y][x] = 2;
+           maze[y][x] = 2;
 
             int dx = -1;
             int dy = 0;

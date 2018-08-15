@@ -1,28 +1,8 @@
-package com.sasa.test.maze_search;
+package com.sasa.test.__final_choice;
 
-//*******************************************************************
-//
-//   Maze_Search.java          In Text          Application
-//
-//   Authors:  Lewis and Loftus
-//
-//   Classes:  Maze_Search
-//             Maze
-//
-//*******************************************************************
+import java.awt.*;
 
-//-------------------------------------------------------------------
-//
-//  Class Maze_Search contains the driver of a program that
-//  demonstrates the use of recursion to solve a maze.
-//
-//  Methods:
-//
-//     public static void main (String[] args)
-//
-//-------------------------------------------------------------------
-
-public class Maze_Search
+public class zipDepthSecond
 {
 
     //===========================================================
@@ -31,8 +11,8 @@ public class Maze_Search
     //===========================================================
     public static void main(String[] args)
     {
-
-        Maze labyrinth = new Maze();
+        ShowSolution v = new ShowSolution();
+        Maze labyrinth = new Maze(0, 0);
 
         labyrinth.print_maze();
 
@@ -44,12 +24,15 @@ public class Maze_Search
         {
             System.out.println("No solution.");
         }
-
+        labyrinth.SetStart();
+        labyrinth.SetFinish();
+        v.maze = labyrinth.grid;
+        v.setVisible(true);
         labyrinth.print_maze();
 
     }  // method main
 
-}  // class Maze_Search
+}//class DepthSecond
 
 //-------------------------------------------------------------------
 //
@@ -68,30 +51,26 @@ public class Maze_Search
 class Maze
 {
 
-    int[][] grid = {
-            {1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1},
-            {1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1},
-            {0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0},
-            {1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1},
-            {1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1},
-            {1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1},
-            {1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-            {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}
-
-/*
-
-            {1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1},
-            {1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1},
-            {0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0},
-            {1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1},
-            {1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1},
-            {1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1},
-            {1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
-            {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}
-*/
-
-
+    public int[][] grid = {
+            {0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0},
+            {0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0},
+            {1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1},
+            {0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0},
+            {0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0},
+            {0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0},
+            {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
     };
+
+    public Point mStart = new Point();
+    public Point mFinish = new Point();
+
+    public Maze(int x, int y)
+    {
+        mStart.x = x;
+        mStart.y = y;
+    }
+
 
     //===========================================================
     //  Prints the maze grid.
@@ -114,6 +93,15 @@ class Maze
 
     }  // method print_maze
 
+    public void SetStart()
+    {
+        grid[mStart.x][mStart.y] = 8;
+    }
+    public void SetFinish()
+    {
+        grid[mFinish.x][mFinish.y] = 9;
+    }
+
     //===========================================================
     //  Attempts to recursively traverse the maze.  It inserts
     //  special characters indicating locations that have been
@@ -129,20 +117,32 @@ class Maze
 
             grid[row][column] = 3;  // cell has been tried
 
-            if (row == grid.length - 1 && column == grid[0].length - 1)
+            if (row == grid.length - 1 && column == grid[0].length - 3)
+            {
+                mFinish.x=row;
+                mFinish.y=column;//
                 done = true;  // maze is solved
+            }
             else
             {
                 done = solve(row + 1, column);  // down
                 if (!done)
+                {
                     done = solve(row, column + 1);  // right
+                }
                 if (!done)
+                {
                     done = solve(row - 1, column);  // up
+                }
                 if (!done)
+                {
                     done = solve(row, column - 1);  // left
+                }
             }
             if (done)  // part of the final path
+            {
                 grid[row][column] = 7;
+            }
         }
 
         return done;
@@ -158,12 +158,13 @@ class Maze
         boolean result = false;
 
         // check if cell is in the bounds of the matrix
-        if (row >= 0 && row < grid.length &&
-                column >= 0 && column < grid[0].length)
+        if (row >= 0 && row < grid.length && column >= 0 && column < grid[0].length)
 
             //  check if cell is not blocked and not previously tried
-            if (grid[row][column] == 1)
+            if (grid[row][column] == 0)
+            {
                 result = true;
+            }
 
         return result;
 

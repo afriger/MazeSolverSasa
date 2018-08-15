@@ -3,7 +3,7 @@ package com.sasa.test.maze_solver;
 import java.io.*;
 import java.util.*;
 
-public class MazeSolver
+public class MazeSolverTest
 {
     /**
      * Reads a file into an array of strings, one per line.

@@ -66,8 +66,8 @@ public class MazeGenerator extends JPanel
             {
                 new Thread(() ->
                 {
-                                       solve(0);
-                   // solve(100);//sasa
+                    solve(0);
+                    // solve(100);//sasa
                 }).start();
             }
         });

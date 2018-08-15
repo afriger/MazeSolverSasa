@@ -3,31 +3,34 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeGenerator.java" line="144" mnemonic="1" />
     <bookmark url="file://$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeGenerator.java" line="13" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeSolver.java" line="163" mnemonic="3" />
-    <bookmark url="file://$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeSolver.java" line="117" mnemonic="0" />
+    <bookmark url="file://$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeSolverTest.java" line="163" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeSolverTest.java" line="117" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e371585-3f4c-448a-8c40-5f68bc50785d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sasa/test/graphics/Grayscale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sasa/test/lee_algorithm/MainLee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sasa/test/lee_algorithm/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sasa/test/maze_zero/MazeZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sasa/test/maze_zero/simple_maze_20x30.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sasa/test/path_finding/Grid2d.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sasa/test/path_finding/INode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sasa/test/path_finding/PathFinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sasa/test/__final_choice/MazeBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sasa/test/__final_choice/MazeSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sasa/test/__final_choice/ShowSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sasa/test/__final_choice/zipDepthSecond.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeSolver/com/sasa/test/DepthFirst.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeSolver/com/sasa/test/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeSolver/com/sasa/test/Viewer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeSolver/com/sasa/test/Viewer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MazeSolverSasa/com/sasa/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeSolverSasa/com/sasa/test/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MazeSolverSasa/com/sasa/test/Maze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MazeSolverSasa/com/sasa/test/Maze_Search.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MazeSolverSasa/com/sasa/test/maze_other/Maze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeSolverSasa/com/sasa/test/maze_other/Maze.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MazeSolverSasa/com/sasa/test/maze_solver/MazeSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeSolverSasa/com/sasa/test/maze_solver/MazeSolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeSolverSasa/com/sasa/test/depth_first/Viewer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeSolverSasa/com/sasa/test/depth_first/Viewer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeSolverSasa/com/sasa/test/depth_first/Viewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeSolverSasa/com/sasa/test/depth_first/Viewer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeSolverSasa/com/sasa/test/graphics/Grayscale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeSolverSasa/com/sasa/test/graphics/Grayscale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeSolverSasa/com/sasa/test/maze_search/Maze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeSolverSasa/com/sasa/test/maze_search/Maze.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeSolverSasa/com/sasa/test/maze_search/Maze_Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MazeSolverSasa/com/sasa/test/maze_search/Maze_Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeSolverSasa/com/sasa/test/maze_solver/MazeSolver.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sasa/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sasa/test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sasa/test/Maze_Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sasa/test/maze_search/Maze_Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sasa/test/maze_other/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sasa/test/maze_other/Maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sasa/test/depth_first/DepthFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sasa/test/depth_first/DepthFirst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sasa/test/depth_first/Viewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sasa/test/depth_first/Viewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sasa/test/graphics/Grayscale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sasa/test/graphics/Grayscale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sasa/test/maze_search/Maze_Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sasa/test/maze_search/Maze_Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeSolverTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,33 +42,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="INode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sasa/test/path_finding/INode.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sasa/test/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Grid2d.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/sasa/test/path_finding/Grid2d.java">
+      <file leaf-file-name="Viewer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sasa/test/depth_first/Viewer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="640">
-              <caret line="147" column="5" selection-start-line="147" selection-start-column="5" selection-end-line="147" selection-end-column="5" />
+              <caret line="101" column="11" lean-forward="true" selection-start-line="101" selection-start-column="11" selection-end-line="101" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PathFinding.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sasa/test/path_finding/PathFinding.java">
+      <file leaf-file-name="MazeBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sasa/test/__final_choice/MazeBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="93">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="24" />
               <folding>
-                <element signature="e#1152#1153#0" expanded="true" />
-                <element signature="e#1243#1244#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MazeSolver.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sasa/test/__final_choice/MazeSolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DepthFirst.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sasa/test/depth_first/DepthFirst.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShowSolution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sasa/test/__final_choice/ShowSolution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -88,6 +123,11 @@
       <find>green</find>
       <find>solve</find>
       <find>main</find>
+      <find>ReadImg</find>
+      <find>red</find>
+      <find>solution</find>
+      <find>mai</find>
+      <find>draw</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,28 +139,38 @@
         <option value="$PROJECT_DIR$/src/com/sasa/test/DepthFirst.java" />
         <option value="$PROJECT_DIR$/src/com/sasa/test/View.java" />
         <option value="$PROJECT_DIR$/src/com/sasa/test/Viewer.java" />
-        <option value="$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeGenerator.java" />
         <option value="$PROJECT_DIR$/src/com/sasa/test/maze_other/StdDraw.java" />
         <option value="$PROJECT_DIR$/src/com/sasa/test/maze_other/StdRandom.java" />
         <option value="$PROJECT_DIR$/src/com/sasa/test/maze_search.java" />
         <option value="$PROJECT_DIR$/src/com/sasa/test/Maze_Search.java" />
         <option value="$PROJECT_DIR$/src/com/sasa/test/maze_other/Maze.java" />
-        <option value="$PROJECT_DIR$/src/com/sasa/test/graphics/Grayscale.java" />
-        <option value="$PROJECT_DIR$/src/com/sasa/test/maze_search/Maze_Search.java" />
         <option value="$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeSolver.java" />
         <option value="$PROJECT_DIR$/1.txt" />
         <option value="$PROJECT_DIR$/src/com/sasa/test/maze_zero/MazeZero.java" />
         <option value="$PROJECT_DIR$/src/com/sasa/test/lee_algorithm4/MainLee.java" />
         <option value="$PROJECT_DIR$/src/com/sasa/test/lee_algorithm/Node.java" />
         <option value="$PROJECT_DIR$/src/com/sasa/test/lee_algorithm/MainLee.java" />
-        <option value="$PROJECT_DIR$/src/com/sasa/test/Main.java" />
         <option value="$PROJECT_DIR$/src/com/sasa/test/path_finding/INode.java" />
         <option value="$PROJECT_DIR$/src/com/sasa/test/path_finding/PathFinding.java" />
         <option value="$PROJECT_DIR$/src/com/sasa/test/path_finding/Grid2d.java" />
+        <option value="$PROJECT_DIR$/src/com/sasa/test/graphics/Grayscale.java" />
+        <option value="$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeGenerator.java" />
+        <option value="$PROJECT_DIR$/src/com/sasa/test/depth_first/DepthFirst.java" />
+        <option value="$PROJECT_DIR$/src/com/sasa/test/maze_search/Maze_Search.java" />
+        <option value="$PROJECT_DIR$/src/com/sasa/test/depth_first/Viewer.java" />
+        <option value="$PROJECT_DIR$/src/com/sasa/test/depth_first/View2.java" />
+        <option value="$PROJECT_DIR$/src/com/sasa/test/depth_first/DepthSecond.java" />
+        <option value="$PROJECT_DIR$/src/com/sasa/test/final_choice/DepthSecond.java" />
+        <option value="$PROJECT_DIR$/src/com/sasa/test/__final_choice/View2.java" />
+        <option value="$PROJECT_DIR$/src/com/sasa/test/__final_choice/zipDepthSecond.java" />
+        <option value="$PROJECT_DIR$/src/com/sasa/test/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/sasa/test/__final_choice/MazeBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/sasa/test/__final_choice/ShowSolution.java" />
+        <option value="$PROJECT_DIR$/src/com/sasa/test/__final_choice/MazeSolver.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -134,6 +184,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,19 +209,31 @@
               <item name="MazeSolverSasa" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="path_finding" type="462c0819:PsiDirectoryNode" />
+              <item name="__final_choice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MazeSolverSasa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MazeSolverSasa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="depth_first" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MazeSolverSasa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MazeSolverSasa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="maze_solver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JPathFinder" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -231,7 +295,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -241,24 +304,24 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32968536" />
       <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6757866" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6744186" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.51709986" visible="true" weight="0.22526042" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32968536" />
-      <window_info id="Structure" order="1" sideWeight="0.48290014" side_tool="true" visible="true" weight="0.22526042" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6624473" visible="true" weight="0.203125" />
+      <window_info id="Structure" order="1" sideWeight="0.33755276" side_tool="true" visible="true" weight="0.203125" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994528" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32968536" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -278,45 +341,119 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeSolver.java</url>
+          <url>file://$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeSolverTest.java</url>
           <line>164</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/sasa/test/Main.java</url>
-          <line>49</line>
+          <line>56</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/sasa/test/graphics/Grayscale.java</url>
-          <line>71</line>
+          <line>141</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeSolver.java</url>
+          <url>file://$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeSolverTest.java</url>
           <line>56</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sasa/test/graphics/Grayscale.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sasa/test/graphics/Grayscale.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sasa/test/graphics/Grayscale.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sasa/test/path_finding/PathFinding.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sasa/test/__final_choice/MazeSolver.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="29" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/depth_first/DepthFirst.java">
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="180">
+          <caret line="19" selection-start-line="18" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/graphics/Grayscale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sasa/test/depth_first/Viewer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        <state relative-caret-position="3820">
+          <caret line="201" column="31" lean-forward="true" selection-start-line="201" selection-start-column="31" selection-end-line="201" selection-end-column="31" />
+          <folding>
+            <element signature="e#2092#2101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/path_finding/INode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/path_finding/Grid2d.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2720">
+          <caret line="147" column="5" selection-start-line="147" selection-start-column="5" selection-end-line="147" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/path_finding/PathFinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -335,7 +472,24 @@
         <state relative-caret-position="500">
           <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2092#2101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/depth_first/DepthFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/depth_first/Viewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="e#2092#2101#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -353,66 +507,7 @@
         <state relative-caret-position="500">
           <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/depth_first/DepthFirst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="127" column="30" selection-start-line="127" selection-start-column="30" selection-end-line="127" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1159#1371#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#3539#3540#0" expanded="true" />
-            <element signature="e#3604#3605#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_other/StdDraw.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="1889" column="12" lean-forward="true" selection-start-line="1889" selection-start-column="12" selection-end-line="1889" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#25084#25095#0" expanded="true" />
-            <element signature="e#25205#25214#0" expanded="true" />
-            <element signature="e#25714#25715#0" expanded="true" />
-            <element signature="e#25771#25772#0" expanded="true" />
-            <element signature="e#29151#29152#0" expanded="true" />
-            <element signature="e#29204#29205#0" expanded="true" />
-            <element signature="e#29332#29333#0" expanded="true" />
-            <element signature="e#29385#29386#0" expanded="true" />
-            <element signature="e#32230#32231#0" expanded="true" />
-            <element signature="e#32272#32273#0" expanded="true" />
-            <element signature="e#32742#32743#0" expanded="true" />
-            <element signature="e#32774#32775#0" expanded="true" />
-            <element signature="e#33106#33107#0" expanded="true" />
-            <element signature="e#33154#33155#0" expanded="true" />
-            <element signature="e#34172#34173#0" expanded="true" />
-            <element signature="e#34203#34204#0" expanded="true" />
-            <element signature="e#34314#34315#0" expanded="true" />
-            <element signature="e#34360#34361#0" expanded="true" />
-            <element signature="e#36051#36052#0" expanded="true" />
-            <element signature="e#36078#36079#0" expanded="true" />
-            <element signature="e#36195#36196#0" expanded="true" />
-            <element signature="e#36232#36233#0" expanded="true" />
-            <element signature="e#63835#63836#0" expanded="true" />
-            <element signature="e#63869#63870#0" expanded="true" />
-            <element signature="e#64163#64164#0" expanded="true" />
-            <element signature="e#64191#64192#0" expanded="true" />
-            <element signature="e#64478#64479#0" expanded="true" />
-            <element signature="e#64507#64508#0" expanded="true" />
+            <element signature="e#2092#2101#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -440,13 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_other/Maze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="208" column="17" selection-start-line="208" selection-start-column="17" selection-end-line="208" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_172/src.zip!/java/awt/image/BufferedImage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -458,18 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/graphics/Grayscale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="82" column="27" lean-forward="true" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/0.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -477,57 +553,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeSolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#387#395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_search/Maze_Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="128" column="47" lean-forward="true" selection-start-line="127" selection-start-column="11" selection-end-line="128" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/depth_first/Viewer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2060">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_zero/simple_maze_20x30.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_zero/MazeZero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1381#1390#0" expanded="true" />
-            <element signature="e#2163#2172#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -548,16 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="32" column="15" lean-forward="true" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sasa/test/path_finding/INode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -565,21 +584,140 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeSolverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="125" column="28" selection-start-line="125" selection-start-column="28" selection-end-line="125" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/graphics/Grayscale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="50" selection-start-line="50" selection-end-line="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_other/StdDraw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="1889" column="12" lean-forward="true" selection-start-line="1889" selection-start-column="12" selection-end-line="1889" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_other/Maze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="208" column="17" selection-start-line="208" selection-start-column="17" selection-end-line="208" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_solver/MazeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="188" column="24" selection-start-line="188" selection-start-column="16" selection-end-line="188" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sasa/test/path_finding/PathFinding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#1152#1153#0" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-960">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sasa/test/path_finding/Grid2d.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
+        <state relative-caret-position="480">
           <caret line="147" column="5" selection-start-line="147" selection-start-column="5" selection-end-line="147" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_search/Maze_Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="171" column="16" lean-forward="true" selection-start-line="53" selection-end-line="171" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_zero/simple_maze_20x30.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/maze_zero/MazeZero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4567">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/__final_choice/zipDepthSecond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/__final_choice/MazeBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/depth_first/DepthFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/depth_first/Viewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="101" column="11" lean-forward="true" selection-start-line="101" selection-start-column="11" selection-end-line="101" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/__final_choice/ShowSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sasa/test/__final_choice/MazeSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
         </state>
       </provider>
     </entry>
